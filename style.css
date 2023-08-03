@@ -1,0 +1,199 @@
+
+body{
+    background-image: url(https://i.pinimg.com/originals/32/59/40/325940899507a141f32f294729c8fbe4.gif);
+    background-size: 70px;
+}
+
+
+
+/* All important videos for 3rd semester  */
+.important{
+    height: 70px;
+    width: auto;
+    font-size: 40px;
+color: #00ff22;
+ background-image: url(https://i.pinimg.com/originals/c7/c7/6c/c7c76cf1b8ea3055c41be5c651e1f605.gif);
+ background-size:  80px;
+ border-radius: 9px;
+ border: 6px solid red;
+}
+
+/* important hover  */
+.important:hover{
+    height: 80px;
+    width: auto;
+    font-size: 60px;
+color: #ff0000;
+ background-image: url(https://i.pinimg.com/originals/c4/e3/ab/c4e3ab0487176e113bc37a0c452ad38d.gif);
+ background-size:  90px;
+ border-radius: 10px;
+ border: 6px solid rgb(31, 255, 102);
+}
+
+/* style of h1  */
+h1{
+    color: rgb(255, 0, 251);
+    background-image: url(https://i.pinimg.com/originals/91/7d/f8/917df85331ce3d08734cd555e475ca44.gif);
+background-size: 50px;
+border-radius: 7px  ;
+border: 4px solid rgb(43, 0, 255);
+}
+
+/* h1 hover  */
+h1:hover{
+color: rgb(1, 196, 255);
+background-image: url(https://i.pinimg.com/originals/43/09/5d/43095d47a22412b49903d93ed4745f6f.gif);
+background-size: 50px;
+border-radius: 8px  ;
+border: 5px solid rgb(250, 64, 240);
+
+}
+
+/* h2 properties  */
+h2{
+
+    color: rgb(26, 255, 0);
+    background-image: url(https://i.pinimg.com/originals/af/1d/3c/af1d3c45f1bc776b8f68f1c927f4a16c.gif);
+background-size: 30px;
+border-radius: 4px;
+border: 2px solid rgb(255, 145, 0);
+
+}
+
+/* hover on h2 */
+
+h2:hover{
+    color: rgb(44, 156, 255);
+    background-image: url(https://i.pinimg.com/originals/35/44/5a/35445ae982581b47e0256994da02492a.gif);
+background-size: 35px;
+border-radius: 5px;
+border: 3px solid rgb(0, 255, 81);
+
+}
+
+
+/*   gate smashers you tube channel for digital circuit  */
+.video{
+    border: 2px solid rgb(44, 237, 255);
+    height: 100%;
+    width: 100%;
+    height:140px;  /* 210px start */
+    width:200px ; /*370px start */
+   border-radius: 20px;
+box-shadow: 2px 2px green ,4px 4px red, 6px 6px blue ,8px 8px #28f042,10px 10px rgb(0, 255, 8)  ;
+margin: 10px ;
+}
+
+
+.video:hover{
+    border: 2px solid rgb(255, 238, 0);
+    height: 160px;
+    width:220px ;
+    border-radius: 30px;
+box-shadow: 3px 3px red ,5px 5px green, 7px 7px rgb(0, 0, 245) ,9px 9px rgb(85, 136, 209),11px 11px rgb(0, 255, 8) ;
+transition: height 1s,width 1s,transform 1s;
+margin: 15px ;
+
+ 
+ }
+
+
+ /* details  */
+ details{
+    height: 70px;
+    width: 200px;
+    color: rgb(255, 0, 0);
+    background-color: #4400ff;
+font-size: 50px;
+border-radius: 15px;
+
+}
+
+/* details hover  */
+details:hover{
+    height: 85px;
+    width: 220px;
+    color: rgb(13, 0, 255);
+    background-color: #ff0000;
+font-size: 55px;
+}
+
+
+ /* image propeety with class "followimage */
+ .followimage{
+    height:100px;
+    width:170px;
+    text-align: center;
+    border-radius: 40px;
+    transition: height 2s,width 2s,transform 2s;
+    box-shadow: 4px 4px red,8px 8px rgb(13, 0, 255),12px 12px green,16px 16px rgb(184, 6, 255),20px 20px rgb(5, 255, 255);
+   }
+
+
+/* followme hover effect  */
+   .followimage:hover{
+     transform: rotate(3600deg) ;
+    height: 110px;
+    width:190px;
+    text-align: center;
+    border-radius: 40px;
+    box-shadow: 5px 5px  red,10px 10px   rgb(13, 0, 255),15px 15px   green,20px 20px   rgb(184, 6, 255),25px 25px   rgb(5, 255, 255) ,30px 30px  rgb(255, 0, 183);
+
+   }
+ 
+
+   /* social media button */
+.social{
+    height: 35px;
+      width: 35px;
+      border-radius:10px;
+      margin-right:   35px ;
+      background-color: black;
+      margin: 4px solid blue ;
+      transition: 2s;
+      border: 3px solid rgb(111, 0, 255);
+      
+      
+  }
+  
+  
+  
+  /* social hover effect  */
+  .social:hover{
+    height: 65px;
+      width: 65px;
+      border-radius:20px;
+      border: 4px solid rgb(255, 0, 0);
+  
+  }
+
+  /* a properties  */
+  a {
+    color: #09ff1e;
+    font-size: 25px;
+
+  }
+
+  /* a hover effect */
+  a:hover{
+    color: #d9ff00;
+    font-size: 29px;
+  }
+
+  /* order list properties */
+  ol{
+    color: #bbff00;
+    font-size: 25px;
+    background-image: url(https://i.pinimg.com/originals/35/44/5a/35445ae982581b47e0256994da02492a.gif);
+    background-size: 70px;  
+    
+  }
+
+  /* hove reffect on  order list  */
+  ol:hover{
+    color: #09ff42;
+    background-image: url(https://i.pinimg.com/originals/1f/25/e3/1f25e3547dc1fab357284f2b04f5e01c.gif);
+background-size: 100px;
+  }
+  
+  
